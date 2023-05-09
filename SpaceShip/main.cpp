@@ -8,7 +8,7 @@ int main()
 
 
     sf::RenderWindow window(sf::VideoMode(800, 600), "[S p a c e S h i p]");
-    //window.setFramerateLimit(60);
+    window.setFramerateLimit(50);
     // ***************Dibujo del fondo*****************
     sf::Sprite fondo;
     sf::Texture _fondo;

@@ -13,8 +13,8 @@ public:
 private:
     sf::Sprite _sprite_A;
     sf::Texture _texture_A;
-   //sf::Vector2f _velocity_A;
-sf::Transform t;
+
+
     float x;
     float y;
 
