@@ -42,8 +42,14 @@
 			<Add directory="SFML/lib" />
 		</Linker>
 		<Unit filename="include/ASTEROIDE.h" />
+		<Unit filename="include/FONDO_MOV.h" />
+		<Unit filename="include/GAME_LOOP.h" />
+		<Unit filename="include/MENU.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/ASTEROIDE.cpp" />
+		<Unit filename="src/FONDO_MOV.cpp" />
+		<Unit filename="src/GAME_LOOP.cpp" />
+		<Unit filename="src/MENU.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>

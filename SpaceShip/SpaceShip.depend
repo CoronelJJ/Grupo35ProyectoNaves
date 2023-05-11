@@ -1,11 +1,9 @@
 # depslib dependency file v1.0
-1683599694 source:d:\estudio\utn\laboratorio ii ejercicios\tp final\spaceship\spaceship\src\asteroide.cpp
+1683637282 source:d:\estudio\utn\laboratorio ii ejercicios\tp final\spaceship\spaceship\src\asteroide.cpp
 	"ASTEROIDE.h"
 	<stdlib.h>
-	<time.h>
-	<iostream>
 
-1683600050 d:\estudio\utn\laboratorio ii ejercicios\tp final\spaceship\spaceship\include\asteroide.h
+1683612144 d:\estudio\utn\laboratorio ii ejercicios\tp final\spaceship\spaceship\include\asteroide.h
 	<SFML/Graphics.hpp>
 
 1525812020 d:\estudio\utn\laboratorio ii ejercicios\tp final\spaceship\spaceship\sfml\include\sfml\graphics.hpp
@@ -417,10 +415,38 @@
 	<SFML/Graphics/Drawable.hpp>
 	<SFML/Window/GlResource.hpp>
 
-1683599446 source:d:\estudio\utn\laboratorio ii ejercicios\tp final\spaceship\spaceship\main.cpp
+1683826756 source:d:\estudio\utn\laboratorio ii ejercicios\tp final\spaceship\spaceship\main.cpp
 	<SFML/Graphics.hpp>
 	"ASTEROIDE.h"
+	"FONDO_MOV.h"
+	"MENU.h"
+	"GAME_LOOP.h"
+	<iostream>
 
 1683525780 source:d:\estudio\utn\laboratorio ii ejercicios\tp final\spaceship\spaceship\include\asteroide.h
+	<SFML/Graphics.hpp>
+
+1683826878 source:d:\estudio\utn\laboratorio ii ejercicios\tp final\spaceship\spaceship\src\menu.cpp
+	"MENU.h"
+	<iostream>
+
+1683826432 d:\estudio\utn\laboratorio ii ejercicios\tp final\spaceship\spaceship\include\menu.h
+	<SFML/Graphics.hpp>
+
+1683616984 d:\estudio\utn\laboratorio ii ejercicios\tp final\spaceship\spaceship\include\fondo_mov.h
+	<SFML/Graphics.hpp>
+
+1683637282 source:d:\estudio\utn\laboratorio ii ejercicios\tp final\spaceship\spaceship\src\fondo_mov.cpp
+	"FONDO_MOV.h"
+
+1683653492 d:\estudio\utn\laboratorio ii ejercicios\tp final\spaceship\spaceship\include\game_loop.h
+	<SFML/Graphics.hpp>
+	"ASTEROIDE.h"
+	"FONDO_MOV.h"
+	"MENU.h"
+	"GAME_LOOP.h"
+
+1683722334 source:d:\estudio\utn\laboratorio ii ejercicios\tp final\spaceship\spaceship\src\game_loop.cpp
+	"GAME_LOOP.h"
 	<SFML/Graphics.hpp>
 

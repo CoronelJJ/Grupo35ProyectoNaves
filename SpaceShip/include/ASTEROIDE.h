@@ -13,12 +13,8 @@ public:
 private:
     sf::Sprite _sprite_A;
     sf::Texture _texture_A;
-
-
     float x;
     float y;
-
-
 };
 
 #endif // ASTEROIDE_H
