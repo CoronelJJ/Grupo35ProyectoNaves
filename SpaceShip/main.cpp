@@ -3,6 +3,7 @@
 #include"FONDO_MOV.h"
 #include"MENU.h"
 #include"GAME_LOOP.h"
+#include "Nave.h"
 #include<iostream>
 using namespace std;
 
