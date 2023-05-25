@@ -52,6 +52,9 @@
 		<Unit filename="include/MENU.h" />
 		<Unit filename="include/Nave.h" />
 		<Unit filename="include/PickUps.h" />
+		<Unit filename="include/Proyectil.h" />
+		<Unit filename="include/ProyectilAliado.h" />
+		<Unit filename="include/ProyectilEnemigo.h" />
 		<Unit filename="include/PuntuacionesAltas.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/ASTEROIDE.cpp" />
@@ -63,6 +66,9 @@
 		<Unit filename="src/MENU.cpp" />
 		<Unit filename="src/Nave.cpp" />
 		<Unit filename="src/PickUps.cpp" />
+		<Unit filename="src/Proyectil.cpp" />
+		<Unit filename="src/ProyectilAliado.cpp" />
+		<Unit filename="src/ProyectilEnemigo.cpp" />
 		<Unit filename="src/PuntuacionesAltas.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />

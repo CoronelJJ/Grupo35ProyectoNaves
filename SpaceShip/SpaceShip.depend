@@ -1036,5 +1036,19 @@
 1685022469 source:c:\users\julian\documents\github\grupo35proyectonaves\spaceship\src\juego.cpp
 	"Juego.h"
 
-1685022330 c:\users\julian\documents\github\grupo35proyectonaves\spaceship\include\juego.h
+1685037052 c:\users\julian\documents\github\grupo35proyectonaves\spaceship\include\juego.h
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+
+1685022494 source:c:\users\julian\documents\github\grupo35proyectonaves\spaceship\src\jugador.cpp
+	"Jugador.h"
+
+1685022523 c:\users\julian\documents\github\grupo35proyectonaves\spaceship\include\jugador.h
+	<cstring>
+
+1685037052 source:c:\users\julian\documents\github\grupo35proyectonaves\spaceship\src\proyectil.cpp
+	"Proyectil.h"
+
+1685037340 c:\users\julian\documents\github\grupo35proyectonaves\spaceship\include\proyectil.h
+	"Juego.h"
 
