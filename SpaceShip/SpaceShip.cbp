@@ -14,6 +14,7 @@
 				<Compiler>
 					<Add option="-g" />
 					<Add directory="include" />
+					<Add directory="../SpaceShip" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -24,6 +25,7 @@
 				<Compiler>
 					<Add option="-O2" />
 					<Add directory="include" />
+					<Add directory="../SpaceShip" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -42,14 +44,26 @@
 			<Add directory="SFML/lib" />
 		</Linker>
 		<Unit filename="include/ASTEROIDE.h" />
+		<Unit filename="include/Colision.h" />
 		<Unit filename="include/FONDO_MOV.h" />
 		<Unit filename="include/GAME_LOOP.h" />
+		<Unit filename="include/Juego.h" />
+		<Unit filename="include/Jugador.h" />
 		<Unit filename="include/MENU.h" />
+		<Unit filename="include/Nave.h" />
+		<Unit filename="include/PickUps.h" />
+		<Unit filename="include/PuntuacionesAltas.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/ASTEROIDE.cpp" />
+		<Unit filename="src/Colision.cpp" />
 		<Unit filename="src/FONDO_MOV.cpp" />
 		<Unit filename="src/GAME_LOOP.cpp" />
+		<Unit filename="src/Juego.cpp" />
+		<Unit filename="src/Jugador.cpp" />
 		<Unit filename="src/MENU.cpp" />
+		<Unit filename="src/Nave.cpp" />
+		<Unit filename="src/PickUps.cpp" />
+		<Unit filename="src/PuntuacionesAltas.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>
