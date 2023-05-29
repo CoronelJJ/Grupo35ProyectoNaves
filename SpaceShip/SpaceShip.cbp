@@ -66,6 +66,7 @@
 		<Unit filename="src/MENU.cpp" />
 		<Unit filename="src/Nave.cpp" />
 		<Unit filename="src/PickUps.cpp" />
+		<Unit filename="src/Presentacion.cpp" />
 		<Unit filename="src/Proyectil.cpp" />
 		<Unit filename="src/ProyectilAliado.cpp" />
 		<Unit filename="src/ProyectilEnemigo.cpp" />

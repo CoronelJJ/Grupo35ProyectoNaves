@@ -7,6 +7,6 @@
 #include"GAME_LOOP.h"
 
 void Juego();
-
+void Presentacion();
 
 #endif // GAME_LOOP_H_INCLUDED

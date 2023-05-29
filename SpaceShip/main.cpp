@@ -11,8 +11,12 @@ using namespace std;
 
 int main()
 {
-    sf::RenderWindow window(sf::VideoMode(800, 600), "[S p a c e S h i p]");
+    sf::RenderWindow window(sf::VideoMode(800, 600), "U.T.N.[Ultimate Terran Neosquad]");
     window.setFramerateLimit(50);
+
+    // ***************Presentacion********************
+
+    Presentacion();
 
     // *******************Menu************************
 
@@ -28,14 +32,14 @@ int main()
 
     // *******************Fuente**********************
     sf::Font font;
-    if (!font.loadFromFile("font/Hybrid_b.ttf"))
+    if (!font.loadFromFile("font/OriginTech personal use.ttf"))
     {
         // error...
     }
     sf::Text Text;
     Text.setFont(font);
-    Text.setPosition(sf::Vector2f(800/4.5,18));
-    Text.setCharacterSize(80);
+    Text.setPosition(sf::Vector2f(150,60));
+    Text.setCharacterSize(30);
 
     //*******************Game Loop**********************
     while (window.isOpen())
@@ -87,13 +91,12 @@ int main()
 
         window.clear(sf::Color::Black);
 
-        Text.setString("SpaceShip");
+        Text.setString("Ultimate Terran Neosquad");
 
         //********Dibujo**********
         window.draw(fondo);
-        window.draw(Text);
         window.draw(menu);
-
+        window.draw(Text);
         //********Display*********
         window.display();
         //************************

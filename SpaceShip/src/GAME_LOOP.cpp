@@ -3,7 +3,7 @@
 
 void Juego()
 {
-	sf::RenderWindow window(sf::VideoMode(800, 600), "[S p a c e S h i p]");
+	sf::RenderWindow window(sf::VideoMode(800, 600), "U.T.N.[Ultimate Terran Neosquad]");
     window.setFramerateLimit(50);
 
 
