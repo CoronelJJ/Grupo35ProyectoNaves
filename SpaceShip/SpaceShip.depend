@@ -450,7 +450,7 @@
 	"GAME_LOOP.h"
 	<SFML/Graphics.hpp>
 
-1684792724 source:c:\users\julian\documents\github\grupo35proyectonaves\spaceship\main.cpp
+1685465991 source:c:\users\julian\documents\github\grupo35proyectonaves\spaceship\main.cpp
 	<SFML/Graphics.hpp>
 	"ASTEROIDE.h"
 	"FONDO_MOV.h"
@@ -874,15 +874,16 @@
 1684791220 c:\users\julian\documents\github\grupo35proyectonaves\spaceship\include\fondo_mov.h
 	<SFML/Graphics.hpp>
 
-1684791220 c:\users\julian\documents\github\grupo35proyectonaves\spaceship\include\menu.h
+1685465991 c:\users\julian\documents\github\grupo35proyectonaves\spaceship\include\menu.h
 	<SFML/Graphics.hpp>
 
-1684791220 c:\users\julian\documents\github\grupo35proyectonaves\spaceship\include\game_loop.h
+1685465991 c:\users\julian\documents\github\grupo35proyectonaves\spaceship\include\game_loop.h
 	<SFML/Graphics.hpp>
 	"ASTEROIDE.h"
 	"FONDO_MOV.h"
 	"MENU.h"
 	"GAME_LOOP.h"
+	"Enemigos.h"
 
 1684791220 source:c:\users\julian\documents\github\grupo35proyectonaves\spaceship\src\asteroide.cpp
 	"ASTEROIDE.h"
@@ -891,11 +892,11 @@
 1684791220 source:c:\users\julian\documents\github\grupo35proyectonaves\spaceship\src\fondo_mov.cpp
 	"FONDO_MOV.h"
 
-1684791220 source:c:\users\julian\documents\github\grupo35proyectonaves\spaceship\src\game_loop.cpp
+1685465991 source:c:\users\julian\documents\github\grupo35proyectonaves\spaceship\src\game_loop.cpp
 	"GAME_LOOP.h"
 	<SFML/Graphics.hpp>
 
-1684791220 source:c:\users\julian\documents\github\grupo35proyectonaves\spaceship\src\menu.cpp
+1685465991 source:c:\users\julian\documents\github\grupo35proyectonaves\spaceship\src\menu.cpp
 	"MENU.h"
 	<iostream>
 
@@ -1672,4 +1673,25 @@
 	<SFML/Graphics.hpp>
 
 1685324234 d:\estudio\utn\laboratorio ii ejercicios\tp final\grupo35proyectonaves\spaceship\include\enemigos.h
+
+1685465991 c:\users\julian\documents\github\grupo35proyectonaves\spaceship\include\enemigos.h
+
+1685465991 source:c:\users\julian\documents\github\grupo35proyectonaves\spaceship\src\enemigos.cpp
+	"Enemigos.h"
+
+1685465991 source:c:\users\julian\documents\github\grupo35proyectonaves\spaceship\src\presentacion.cpp
+	"GAME_LOOP.h"
+	<SFML/Graphics.hpp>
+
+1685037565 source:c:\users\julian\documents\github\grupo35proyectonaves\spaceship\src\proyectilaliado.cpp
+	"ProyectilAliado.h"
+
+1685037565 c:\users\julian\documents\github\grupo35proyectonaves\spaceship\include\proyectilaliado.h
+	<Proyectil.h>
+
+1685037565 source:c:\users\julian\documents\github\grupo35proyectonaves\spaceship\src\proyectilenemigo.cpp
+	"ProyectilEnemigo.h"
+
+1685037565 c:\users\julian\documents\github\grupo35proyectonaves\spaceship\include\proyectilenemigo.h
+	<Proyectil.h>
 
