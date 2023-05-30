@@ -45,6 +45,7 @@
 		</Linker>
 		<Unit filename="include/ASTEROIDE.h" />
 		<Unit filename="include/Colision.h" />
+		<Unit filename="include/Enemigos.h" />
 		<Unit filename="include/FONDO_MOV.h" />
 		<Unit filename="include/GAME_LOOP.h" />
 		<Unit filename="include/Juego.h" />
@@ -59,6 +60,7 @@
 		<Unit filename="main.cpp" />
 		<Unit filename="src/ASTEROIDE.cpp" />
 		<Unit filename="src/Colision.cpp" />
+		<Unit filename="src/Enemigos.cpp" />
 		<Unit filename="src/FONDO_MOV.cpp" />
 		<Unit filename="src/GAME_LOOP.cpp" />
 		<Unit filename="src/Juego.cpp" />

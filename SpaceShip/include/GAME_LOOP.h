@@ -5,6 +5,7 @@
 #include"FONDO_MOV.h"
 #include"MENU.h"
 #include"GAME_LOOP.h"
+#include"Enemigos.h"
 
 void Juego();
 void Presentacion();

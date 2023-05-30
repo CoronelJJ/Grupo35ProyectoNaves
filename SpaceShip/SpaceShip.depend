@@ -1479,12 +1479,13 @@
 1685323240 d:\estudio\utn\laboratorio ii ejercicios\tp final\grupo35proyectonaves\spaceship\include\menu.h
 	<SFML/Graphics.hpp>
 
-1685323240 d:\estudio\utn\laboratorio ii ejercicios\tp final\grupo35proyectonaves\spaceship\include\game_loop.h
+1685324234 d:\estudio\utn\laboratorio ii ejercicios\tp final\grupo35proyectonaves\spaceship\include\game_loop.h
 	<SFML/Graphics.hpp>
 	"ASTEROIDE.h"
 	"FONDO_MOV.h"
 	"MENU.h"
 	"GAME_LOOP.h"
+	"Enemigos.h"
 
 1685321838 d:\estudio\utn\laboratorio ii ejercicios\tp final\grupo35proyectonaves\spaceship\include\nave.h
 	<SFML/Graphics.hpp>
@@ -1669,4 +1670,6 @@
 1685323240 source:d:\estudio\utn\laboratorio ii ejercicios\tp final\grupo35proyectonaves\spaceship\src\presentacion.cpp
 	"GAME_LOOP.h"
 	<SFML/Graphics.hpp>
+
+1685324234 d:\estudio\utn\laboratorio ii ejercicios\tp final\grupo35proyectonaves\spaceship\include\enemigos.h
 
