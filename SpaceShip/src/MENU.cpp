@@ -12,45 +12,45 @@ MENU::MENU(float width, float height)
     marco.setPosition(100.f,50.f);
 
 
-    _boton1.loadFromFile("img/Table.png");
-    boton1.setTexture(_boton1);
-    boton1.scale(.8f,.5f);
-    boton1.setPosition(sf::Vector2f(width/3.4,height/3.5*1));
+    _boton[0].loadFromFile("img/Table.png");
+    boton[0].setTexture(_boton[0]);
+    boton[0].scale(.8f,.5f);
+    boton[0].setPosition(sf::Vector2f(width/3.4,height/3.5*1));
 
-    _boton2.loadFromFile("img/Table.png");
-    boton2.setTexture(_boton1);
-    boton2.scale(.8f,.5f);
-    boton2.setPosition(sf::Vector2f(width/3.4,height/3.5*1.5));
+    _boton[1].loadFromFile("img/Table.png");
+    boton[1].setTexture(_boton[1]);
+    boton[1].scale(.8f,.5f);
+    boton[1].setPosition(sf::Vector2f(width/3.4,height/3.5*1.5));
 
-    _boton3.loadFromFile("img/Table.png");
-    boton3.setTexture(_boton1);
-    boton3.scale(.8f,.5f);
-    boton3.setPosition(sf::Vector2f(width/3.4,height/3.5*2));
+    _boton[2].loadFromFile("img/Table.png");
+    boton[2].setTexture(_boton[2]);
+    boton[2].scale(.8f,.5f);
+    boton[2].setPosition(sf::Vector2f(width/3.4,height/3.5*2));
 
-    _boton4.loadFromFile("img/Table.png");
-    boton4.setTexture(_boton1);
-    boton4.scale(.8f,.5f);
-    boton4.setPosition(sf::Vector2f(width/3.4,height/3.5*2.5));
+    _boton[3].loadFromFile("img/Table.png");
+    boton[3].setTexture(_boton[3]);
+    boton[3].scale(.8f,.5f);
+    boton[3].setPosition(sf::Vector2f(width/3.4,height/3.5*2.5));
 
-    _icono1.loadFromFile("img/Nave.png");
-    icono1.setTexture(_icono1);
-    icono1.scale(0.25,0.25);
-    icono1.setPosition(sf::Vector2f(width/5.2,height/3.5*1));
+    _icono[0].loadFromFile("img/Nave.png");
+    icono[0].setTexture(_icono[0]);
+    icono[0].scale(0.25,0.25);
+    icono[0].setPosition(sf::Vector2f(width/5.2,height/3.5*1));
 
-    _icono2.loadFromFile("img/Estadistica.png");
-    icono2.setTexture(_icono2);
-    icono2.scale(0.25,0.25);
-    icono2.setPosition(sf::Vector2f(width/5.2,height/3.5*1.5));
+    _icono[1].loadFromFile("img/Estadistica.png");
+    icono[1].setTexture(_icono[1]);
+    icono[1].scale(0.25,0.25);
+    icono[1].setPosition(sf::Vector2f(width/5.2,height/3.5*1.5));
 
-    _icono3.loadFromFile("img/Setting.png");
-    icono3.setTexture(_icono3);
-    icono3.scale(0.25,0.25);
-    icono3.setPosition(sf::Vector2f(width/5.2,height/3.5*2));
+    _icono[2].loadFromFile("img/Setting.png");
+    icono[2].setTexture(_icono[2]);
+    icono[2].scale(0.25,0.25);
+    icono[2].setPosition(sf::Vector2f(width/5.2,height/3.5*2));
 
-    _icono4.loadFromFile("img/Info.png");
-    icono4.setTexture(_icono4);
-    icono4.scale(0.25,0.25);
-    icono4.setPosition(sf::Vector2f(width/5.2,height/3.5*2.5));
+    _icono[3].loadFromFile("img/Info.png");
+    icono[3].setTexture(_icono[3]);
+    icono[3].scale(0.25,0.25);
+    icono[3].setPosition(sf::Vector2f(width/5.2,height/3.5*2.5));
 
     // **********************Opciones**************************
     if (!font_item.loadFromFile("font/neuropol x rg.otf"))
@@ -91,16 +91,11 @@ MENU::~MENU()
 void MENU::draw(sf::RenderTarget& target, sf::RenderStates states)const
 {
     target.draw(marco,states);
-    target.draw(boton1,states);
-    target.draw(icono1,states);
-    target.draw(boton2,states);
-    target.draw(icono2,states);
-    target.draw(boton3,states);
-    target.draw(icono3,states);
-    target.draw(boton4,states);
-    target.draw(icono4,states);
+
     for(int x=0; x<Item; x++)
     {
+        target.draw(icono[x],states);
+        target.draw(boton[x],states);
         target.draw(menu[x],states);
     }
 }

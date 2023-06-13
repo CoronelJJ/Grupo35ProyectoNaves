@@ -26,24 +26,12 @@ private:
 
     sf::Sprite marco;
     sf::Texture _marco;
-    sf::Sprite boton1;
-    sf::Texture _boton1;
-    sf::Sprite boton2;
-    sf::Texture _boton2;
-    sf::Sprite boton3;
-    sf::Texture _boton3;
-    sf::Sprite boton4;
-    sf::Texture _boton4;
 
-    sf::Sprite icono1;
-    sf::Texture _icono1;
-    sf::Sprite icono2;
-    sf::Texture _icono2;
-    sf::Sprite icono3;
-    sf::Texture _icono3;
-    sf::Sprite icono4;
-    sf::Texture _icono4;
+    sf::Sprite boton[Item];
+    sf::Texture _boton[Item];
 
+    sf::Sprite icono[Item];
+    sf::Texture _icono[Item];
 
 };
 

@@ -450,7 +450,7 @@
 	"GAME_LOOP.h"
 	<SFML/Graphics.hpp>
 
-1684792724 source:c:\users\julian\documents\github\grupo35proyectonaves\spaceship\main.cpp
+1685465991 source:c:\users\julian\documents\github\grupo35proyectonaves\spaceship\main.cpp
 	<SFML/Graphics.hpp>
 	"ASTEROIDE.h"
 	"FONDO_MOV.h"
@@ -874,15 +874,16 @@
 1684791220 c:\users\julian\documents\github\grupo35proyectonaves\spaceship\include\fondo_mov.h
 	<SFML/Graphics.hpp>
 
-1684791220 c:\users\julian\documents\github\grupo35proyectonaves\spaceship\include\menu.h
+1685465991 c:\users\julian\documents\github\grupo35proyectonaves\spaceship\include\menu.h
 	<SFML/Graphics.hpp>
 
-1684791220 c:\users\julian\documents\github\grupo35proyectonaves\spaceship\include\game_loop.h
+1685465991 c:\users\julian\documents\github\grupo35proyectonaves\spaceship\include\game_loop.h
 	<SFML/Graphics.hpp>
 	"ASTEROIDE.h"
 	"FONDO_MOV.h"
 	"MENU.h"
 	"GAME_LOOP.h"
+	"Enemigos.h"
 
 1684791220 source:c:\users\julian\documents\github\grupo35proyectonaves\spaceship\src\asteroide.cpp
 	"ASTEROIDE.h"
@@ -891,11 +892,11 @@
 1684791220 source:c:\users\julian\documents\github\grupo35proyectonaves\spaceship\src\fondo_mov.cpp
 	"FONDO_MOV.h"
 
-1684791220 source:c:\users\julian\documents\github\grupo35proyectonaves\spaceship\src\game_loop.cpp
+1685465991 source:c:\users\julian\documents\github\grupo35proyectonaves\spaceship\src\game_loop.cpp
 	"GAME_LOOP.h"
 	<SFML/Graphics.hpp>
 
-1684791220 source:c:\users\julian\documents\github\grupo35proyectonaves\spaceship\src\menu.cpp
+1685465991 source:c:\users\julian\documents\github\grupo35proyectonaves\spaceship\src\menu.cpp
 	"MENU.h"
 	<iostream>
 
@@ -1476,16 +1477,15 @@
 1685321838 d:\estudio\utn\laboratorio ii ejercicios\tp final\grupo35proyectonaves\spaceship\include\fondo_mov.h
 	<SFML/Graphics.hpp>
 
-1686499492 d:\estudio\utn\laboratorio ii ejercicios\tp final\grupo35proyectonaves\spaceship\include\menu.h
+1686660466 d:\estudio\utn\laboratorio ii ejercicios\tp final\grupo35proyectonaves\spaceship\include\menu.h
 	<SFML/Graphics.hpp>
 
-1686639996 d:\estudio\utn\laboratorio ii ejercicios\tp final\grupo35proyectonaves\spaceship\include\game_loop.h
+1686652886 d:\estudio\utn\laboratorio ii ejercicios\tp final\grupo35proyectonaves\spaceship\include\game_loop.h
 	<SFML/Graphics.hpp>
 	"ASTEROIDE.h"
 	"FONDO_MOV.h"
 	"MENU.h"
 	"GAME_LOOP.h"
-	"Enemigos.h"
 	"ELECCION_NAVE.h"
 	"IngresarTexto.h"
 
@@ -1630,7 +1630,7 @@
 1686487208 d:\estudio\utn\laboratorio ii ejercicios\tp final\grupo35proyectonaves\spaceship\include\jugador.h
 	<cstring>
 
-1686634214 source:d:\estudio\utn\laboratorio ii ejercicios\tp final\grupo35proyectonaves\spaceship\src\menu.cpp
+1686660466 source:d:\estudio\utn\laboratorio ii ejercicios\tp final\grupo35proyectonaves\spaceship\src\menu.cpp
 	"MENU.h"
 	<iostream>
 
@@ -1684,7 +1684,7 @@
 1686487202 d:\estudio\utn\laboratorio ii ejercicios\tp final\grupo35proyectonaves\spaceship\include\ingresartexto.h
 	<SFML/Graphics.hpp>
 
-1686639938 source:d:\estudio\utn\laboratorio ii ejercicios\tp final\grupo35proyectonaves\spaceship\src\menu_jugador.cpp
+1686653018 source:d:\estudio\utn\laboratorio ii ejercicios\tp final\grupo35proyectonaves\spaceship\src\menu_jugador.cpp
 	"GAME_LOOP.h"
 	<SFML/Graphics.hpp>
 	<iostream>
