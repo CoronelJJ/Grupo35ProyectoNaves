@@ -6,8 +6,12 @@
 #include"MENU.h"
 #include"GAME_LOOP.h"
 #include"Enemigos.h"
+#include"ELECCION_NAVE.h"
+#include"IngresarTexto.h"
 
 void Juego();
 void Presentacion();
+void menu_principal();
+void Menu_jugador();
 
 #endif // GAME_LOOP_H_INCLUDED

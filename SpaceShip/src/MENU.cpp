@@ -10,8 +10,7 @@ MENU::MENU(float width, float height)
     marco.setTexture(_marco);
     marco.scale(.6f,.35f);
     marco.setPosition(100.f,50.f);
-    //sf::Color color_F(255,255,255,100);
-    //marco.setColor(color_F);
+
 
     _boton1.loadFromFile("img/Table.png");
     boton1.setTexture(_boton1);
@@ -32,6 +31,26 @@ MENU::MENU(float width, float height)
     boton4.setTexture(_boton1);
     boton4.scale(.8f,.5f);
     boton4.setPosition(sf::Vector2f(width/3.4,height/3.5*2.5));
+
+    _icono1.loadFromFile("img/Nave.png");
+    icono1.setTexture(_icono1);
+    icono1.scale(0.25,0.25);
+    icono1.setPosition(sf::Vector2f(width/5.2,height/3.5*1));
+
+    _icono2.loadFromFile("img/Estadistica.png");
+    icono2.setTexture(_icono2);
+    icono2.scale(0.25,0.25);
+    icono2.setPosition(sf::Vector2f(width/5.2,height/3.5*1.5));
+
+    _icono3.loadFromFile("img/Setting.png");
+    icono3.setTexture(_icono3);
+    icono3.scale(0.25,0.25);
+    icono3.setPosition(sf::Vector2f(width/5.2,height/3.5*2));
+
+    _icono4.loadFromFile("img/Info.png");
+    icono4.setTexture(_icono4);
+    icono4.scale(0.25,0.25);
+    icono4.setPosition(sf::Vector2f(width/5.2,height/3.5*2.5));
 
     // **********************Opciones**************************
     if (!font_item.loadFromFile("font/neuropol x rg.otf"))
@@ -73,9 +92,13 @@ void MENU::draw(sf::RenderTarget& target, sf::RenderStates states)const
 {
     target.draw(marco,states);
     target.draw(boton1,states);
+    target.draw(icono1,states);
     target.draw(boton2,states);
+    target.draw(icono2,states);
     target.draw(boton3,states);
+    target.draw(icono3,states);
     target.draw(boton4,states);
+    target.draw(icono4,states);
     for(int x=0; x<Item; x++)
     {
         target.draw(menu[x],states);

@@ -35,6 +35,16 @@ private:
     sf::Sprite boton4;
     sf::Texture _boton4;
 
+    sf::Sprite icono1;
+    sf::Texture _icono1;
+    sf::Sprite icono2;
+    sf::Texture _icono2;
+    sf::Sprite icono3;
+    sf::Texture _icono3;
+    sf::Sprite icono4;
+    sf::Texture _icono4;
+
+
 };
 
 #endif // MENU_H

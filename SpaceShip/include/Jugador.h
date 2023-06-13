@@ -1,21 +1,17 @@
-#ifndef JUGADOR_H
-#define JUGADOR_H
+#pragma once
 #include <cstring>
-
-
 class Jugador
 {
-    public:
-        Jugador();
-        void setNombre(const char* nombre){strcpy(_nombre,nombre);}
-        void setPuntaje(int puntos){_puntaje=puntos*1000;}
-        const char* getNombre(){return _nombre;}
-        int getPuntaje(){return _puntaje;}
+public:
+	const char* getNombre();
+	void setNombre(const char* nombre);
+	int getPuntaje();
+	void setPuntaje(int puntos);
 
 
-    private:
-        char _nombre[16];
-        int _puntaje;
+private:
+	char nombreJugador[8];
+	int puntajeJugador;
+
 };
 
-#endif // JUGADOR_H

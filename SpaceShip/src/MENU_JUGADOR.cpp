@@ -1,31 +1,15 @@
-#include <SFML/Graphics.hpp>
-#include"ASTEROIDE.h"
-#include"FONDO_MOV.h"
-#include"MENU.h"
 #include"GAME_LOOP.h"
-#include "Nave.h"
-#include<iostream>
-using namespace std;
+#include <SFML/Graphics.hpp>
+#include <iostream>>
 
-
-int main()
-{
-    Presentacion();
-
-    menu_principal();
-
-    return 0;
-}
-
-void menu_principal()
+void Menu_jugador()
 {
     sf::RenderWindow window(sf::VideoMode(800, 600), "U.T.N.[Ultimate Terran Neosquad]");
     window.setFramerateLimit(50);
 
-
     // *******************Menu************************
 
-    MENU menu(window.getSize().x,window.getSize().y);
+    ELECCION_NAVE ELECCION_NAVE(window.getSize().x,window.getSize().y);
 
     // ***************Dibujo del fondo*****************
     sf::Sprite fondo;
@@ -57,31 +41,58 @@ void menu_principal()
             case sf::Event::KeyReleased:
                 switch(event.key.code)
                 {
-                case sf::Keyboard::Up:
-                    menu.up();
+                case sf::Keyboard::Left:
+                    ELECCION_NAVE.left();
                     break;
-                case sf::Keyboard::Down:
-                    menu.down();
+                case sf::Keyboard::Right:
+                    ELECCION_NAVE.right();
                     break;
                 case sf::Keyboard::Return:
-                    switch(menu.GetPressedItem())
+                    switch(ELECCION_NAVE.GetPressedItem()) //Eleccion de nave y comienzo del juego
                     {
                     case 0:
-                        cout<<"Eleccion de nave"<<endl;
+                        cout<<"Battlecruiser"<<endl;
                         window.close();
-                        Menu_jugador(); //Menu para elegir nave
+                        Juego();
                         break;
                     case 1:
-                        cout<<"Estadistica"<<endl;
+                        cout<<"Bomber"<<endl;
+                        window.close();
+                        Juego();
                         break;
                     case 2:
-                        cout<<"Opciones"<<endl;
+                        cout<<"Dreadnought"<<endl;
+                        window.close();
+                        Juego();
                         break;
                     case 3:
-                        cout<<"Credito"<<endl;
+                        cout<<"Fighter"<<endl;
+                        window.close();
+                        Juego();
+                        break;
+                    case 4:
+                        cout<<"Frigate"<<endl;
+                        window.close();
+                        Juego();
+                        break;
+                    case 5:
+                        cout<<"Scout"<<endl;
+                        window.close();
+                        Juego();
+                        break;
+                    case 6:
+                        cout<<"Torpedo_Ship"<<endl;
+                        window.close();
+                        Juego();
+                        break;
+                    case 7:
+                        cout<<"Menu principal"<<endl;
+                        window.close();
+                        menu_principal();
                         break;
                     }
                     break;
+
                 }
                 break;
 
@@ -100,10 +111,11 @@ void menu_principal()
 
         //********Dibujo**********
         window.draw(fondo);
-        window.draw(menu);
+        window.draw(ELECCION_NAVE);
         window.draw(Text);
         //********Display*********
         window.display();
         //************************
     }
 }
+
