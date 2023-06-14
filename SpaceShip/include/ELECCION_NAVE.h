@@ -1,7 +1,7 @@
 #ifndef ELECCION_NAVE_H
 #define ELECCION_NAVE_H
 #include <SFML/Graphics.hpp>
-
+#include "IngresarTexto.h"
 
 #define Item 8
 
@@ -18,6 +18,7 @@ public:
     {
         return seleccion_item;
     }
+    void teclearNombre();
 
 
 protected:
@@ -50,6 +51,9 @@ private:
 
     sf::Sprite nave[Item];
     sf::Texture _nave[Item];
+
+    IngresarTexto IngresarNombre;
+    sf::Text nombrePiloto;
 
 };
 

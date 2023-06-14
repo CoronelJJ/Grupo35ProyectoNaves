@@ -450,7 +450,7 @@
 	"GAME_LOOP.h"
 	<SFML/Graphics.hpp>
 
-1685465991 source:c:\users\julian\documents\github\grupo35proyectonaves\spaceship\main.cpp
+1686666627 source:c:\users\julian\documents\github\grupo35proyectonaves\spaceship\main.cpp
 	<SFML/Graphics.hpp>
 	"ASTEROIDE.h"
 	"FONDO_MOV.h"
@@ -874,16 +874,17 @@
 1684791220 c:\users\julian\documents\github\grupo35proyectonaves\spaceship\include\fondo_mov.h
 	<SFML/Graphics.hpp>
 
-1685465991 c:\users\julian\documents\github\grupo35proyectonaves\spaceship\include\menu.h
+1686666627 c:\users\julian\documents\github\grupo35proyectonaves\spaceship\include\menu.h
 	<SFML/Graphics.hpp>
 
-1685465991 c:\users\julian\documents\github\grupo35proyectonaves\spaceship\include\game_loop.h
+1686666627 c:\users\julian\documents\github\grupo35proyectonaves\spaceship\include\game_loop.h
 	<SFML/Graphics.hpp>
 	"ASTEROIDE.h"
 	"FONDO_MOV.h"
 	"MENU.h"
 	"GAME_LOOP.h"
-	"Enemigos.h"
+	"ELECCION_NAVE.h"
+	"IngresarTexto.h"
 
 1684791220 source:c:\users\julian\documents\github\grupo35proyectonaves\spaceship\src\asteroide.cpp
 	"ASTEROIDE.h"
@@ -896,7 +897,7 @@
 	"GAME_LOOP.h"
 	<SFML/Graphics.hpp>
 
-1685465991 source:c:\users\julian\documents\github\grupo35proyectonaves\spaceship\src\menu.cpp
+1686666627 source:c:\users\julian\documents\github\grupo35proyectonaves\spaceship\src\menu.cpp
 	"MENU.h"
 	<iostream>
 
@@ -1041,10 +1042,10 @@
 	<SFML/Graphics.hpp>
 	<SFML/Audio.hpp>
 
-1685022494 source:c:\users\julian\documents\github\grupo35proyectonaves\spaceship\src\jugador.cpp
+1686666627 source:c:\users\julian\documents\github\grupo35proyectonaves\spaceship\src\jugador.cpp
 	"Jugador.h"
 
-1685022523 c:\users\julian\documents\github\grupo35proyectonaves\spaceship\include\jugador.h
+1686666627 c:\users\julian\documents\github\grupo35proyectonaves\spaceship\include\jugador.h
 	<cstring>
 
 1685037052 source:c:\users\julian\documents\github\grupo35proyectonaves\spaceship\src\proyectil.cpp
@@ -1694,4 +1695,43 @@
 
 1686639002 d:\estudio\utn\laboratorio ii ejercicios\tp final\grupo35proyectonaves\spaceship\include\eleccion_nave.h
 	<SFML/Graphics.hpp>
+
+1686669180 c:\users\julian\documents\github\grupo35proyectonaves\spaceship\include\eleccion_nave.h
+	<SFML/Graphics.hpp>
+	"IngresarTexto.h"
+
+1686669269 c:\users\julian\documents\github\grupo35proyectonaves\spaceship\include\ingresartexto.h
+	<SFML/Graphics.hpp>
+
+1686666627 source:c:\users\julian\documents\github\grupo35proyectonaves\spaceship\src\eleccion_nave.cpp
+	"ELECCION_NAVE.h"
+
+1685465991 source:c:\users\julian\documents\github\grupo35proyectonaves\spaceship\src\enemigos.cpp
+	"Enemigos.h"
+
+1685465991 c:\users\julian\documents\github\grupo35proyectonaves\spaceship\include\enemigos.h
+
+1686666627 source:c:\users\julian\documents\github\grupo35proyectonaves\spaceship\src\ingresartexto.cpp
+	"IngresarTexto.h"
+
+1686666627 source:c:\users\julian\documents\github\grupo35proyectonaves\spaceship\src\menu_jugador.cpp
+	"GAME_LOOP.h"
+	<SFML/Graphics.hpp>
+	<iostream>
+
+1685465991 source:c:\users\julian\documents\github\grupo35proyectonaves\spaceship\src\presentacion.cpp
+	"GAME_LOOP.h"
+	<SFML/Graphics.hpp>
+
+1685037565 source:c:\users\julian\documents\github\grupo35proyectonaves\spaceship\src\proyectilaliado.cpp
+	"ProyectilAliado.h"
+
+1685037565 c:\users\julian\documents\github\grupo35proyectonaves\spaceship\include\proyectilaliado.h
+	<Proyectil.h>
+
+1685037565 source:c:\users\julian\documents\github\grupo35proyectonaves\spaceship\src\proyectilenemigo.cpp
+	"ProyectilEnemigo.h"
+
+1685037565 c:\users\julian\documents\github\grupo35proyectonaves\spaceship\include\proyectilenemigo.h
+	<Proyectil.h>
 

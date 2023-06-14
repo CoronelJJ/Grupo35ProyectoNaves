@@ -1,6 +1,6 @@
 #include "IngresarTexto.h"
 
-IngresarTexto::IngresarTexto()
+IngresarTexto::IngresarTexto(float PosX, float PosY)
 {
 	fuente = new sf::Font();
 	fuente->loadFromFile("Letra.ttf");
@@ -11,15 +11,17 @@ IngresarTexto::IngresarTexto()
 	contador = 0;
 	posicion = 0;
 
-	//setString
-	teclear = true;
-	valido = false;
-	agregar = false;
+	evento2 = new sf::Event;
 
-    char nombre[9]={"xyxz"};
+	//setString
+	valido = false;
+	
+	enter = false;
+
+	nombre = new char[9] {"___"};
 
 	texto->setString(nombre);
-	texto->setPosition(400, 300);
+	texto->setPosition(PosX,PosY);
 
 }
 
@@ -28,50 +30,53 @@ const char* IngresarTexto::getNombre()
 	return nombre;
 }
 
-char IngresarTexto::obtenerCaracter()
-{
-	if (teclear && sf::Keyboard::isKeyPressed(sf::Keyboard::A)) {
-		teclear = false;
-		agregar = true;
-		return 'A';
-	}
-	if (teclear && sf::Keyboard::isKeyPressed(sf::Keyboard::Delete)) {
-		//teclear = false;
-		return ' ';
-	}
-	if (teclear && sf::Keyboard::isKeyPressed(sf::Keyboard::Enter)) {
-		//teclear = false;
-		enter = true;
-		return ' ';
-	}
 
-
-
-}
 
 sf::Text IngresarTexto::obtenerTexto()
 {
+	
 	return *texto;
 }
 
-void IngresarTexto::setNombre()
+void IngresarTexto::setNombre(sf::Event evento)
 {
-	while (!valido) {
-		enter = false;
-		nombre[posicion] = obtenerCaracter();
-		//teclear = true;
-		if (agregar) {
-			posicion++;
-			agregar = false;
-
+	
+		switch (evento.type) {
+		case sf::Event::TextEntered:
+			if (evento.text.unicode >= 33 && evento.text.unicode <= 126 && posicion<10) {
+				nombre[posicion] = (char)evento.text.unicode;
+				std::cout<< (char)evento.text.unicode;
+				posicion++;
+			}
+			else if(evento.text.unicode == 8) {
+				posicion--;
+				nombre[posicion] = ' ';
+				
+			}
+			if (evento.text.unicode == 13) {
+				enter = true;
+			}
+			break;
 		}
-
+			
 
 		if (posicion < 0) { posicion = 0; }
 
 		if (posicion > 2 && posicion < 10 && enter) {
 			valido = true;
 		}
-	}
+		else { enter = false; }
+		texto->setString(nombre);
+	
 
+}
+
+bool IngresarTexto::getValido()
+{
+	return valido;
+}
+
+void IngresarTexto::draw(sf::RenderTarget& target, sf::RenderStates states) const
+{
+	target.draw(*texto, states);
 }

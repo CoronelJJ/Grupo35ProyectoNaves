@@ -221,6 +221,9 @@ ELECCION_NAVE::ELECCION_NAVE(float width, float height)
     text1.setString("Identifiquese piloto!");
     text1.setPosition(sf::Vector2f(width/5.7,height/1.4));
 
+    nombrePiloto.setFont(font1);
+
+
 
 
 }
@@ -298,5 +301,21 @@ void ELECCION_NAVE::right()
         nave[seleccion_item].setColor(color_brillante);
         volver[seleccion_item].setColor(color_brillante);
     }
+
+}
+
+void ELECCION_NAVE::teclearNombre(){
+
+while(!IngresarNombre.getValido()){
+
+
+        target.draw(IngresarNombre.obtenerTexto(),states);
+        IngresarNombre.
+
+
+    }
+
+nombrePiloto=IngresarNombre.getNombre();
+
 
 }

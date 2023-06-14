@@ -1,25 +1,28 @@
 #pragma once
 #include <SFML/Graphics.hpp>
+#include <iostream>
 
-class IngresarTexto
+class IngresarTexto: public sf::Drawable
 {
 public:
 
-	IngresarTexto();
+	IngresarTexto(float PosX, float PosY);
 	const char* getNombre();
-	char obtenerCaracter();
 	sf::Text obtenerTexto();
-	void setNombre();
+	void setNombre(sf::Event evento);
+	bool getValido();
+	
+	void draw(sf::RenderTarget& target, sf::RenderStates states) const;
 
 
 
 private:
 	sf::Font* fuente;
 	sf::Text* texto;
-
+	sf::Event* evento2;
 	char* nombre;
 	int contador,posicion;
-	bool teclear,valido,enter,agregar;
+	bool valido,enter;
 
 
 

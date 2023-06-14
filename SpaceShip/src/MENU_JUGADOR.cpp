@@ -1,6 +1,6 @@
 #include"GAME_LOOP.h"
 #include <SFML/Graphics.hpp>
-#include <iostream>>
+#include <iostream>
 using namespace std;
 
 void Menu_jugador()
